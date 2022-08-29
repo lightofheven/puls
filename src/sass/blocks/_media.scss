@@ -1,0 +1,114 @@
+@media (min-width: 720px) and (max-width: 1024px) {
+    .header {
+        display: flex;
+        justify-content: space-around;
+        align-items :center;
+    }
+    .promo {
+        &__wreapper {
+            display: block;
+            margin-top: 91px;
+        }
+        &__header {
+            font-weight: 700;
+            font-size: 35px;
+            text-transform: uppercase;
+            color: #fff;
+            line-height: 35px;
+            text-align: center;
+        }
+        &__subheader {
+            font-weight: 500;
+            font-size: 20px;
+            text-transform: uppercase;
+            color: #fff;
+            margin-top: 21px;
+            line-height: 20px;
+            text-align: center;
+        }
+        &__icons {
+            width: 425px;
+            display: flex;
+            justify-content: space-between;
+            margin: 60px auto;
+        }
+        &__link {
+            font-weight: 500;
+            font-size: 16px;
+            color: #fff;
+            margin-top: 8px;
+            text-align: center;
+        }
+    .button {
+        &_main {
+            display: block;
+            margin: 67px auto;
+            width: 303px;
+            height: 54px;
+            font-size: 16px;
+            margin-bottom: 0;
+        }
+    }
+    }
+    .benefits {
+        .title {
+            text-align: center;
+            font-weight: 700;
+            font-size: 25px;
+            color: #0d0d0d;
+            text-transform: uppercase;
+        }
+        &__wreapper {
+            margin-top: 65px;
+            display: flex;
+            justify-content: space-around;
+        }
+        &__descr {
+            margin-top: 20px;
+            font-weight: 300;
+            font-size: 13px;
+            line-height: 18px;
+            color: #0d0d0d;
+            text-align: center;
+        }
+    }
+    .consultation {
+        .title {
+            &_left {
+                font-size: 30px;
+                line-height: 50px;
+                color: #fff;
+                text-align: center;
+                margin-bottom: 0;
+            }
+        }
+        &__descr {
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 30px;
+            color: #fff;
+            text-align: center;
+            margin-top: 8px;
+        }
+        .feed-form {
+            margin: 36px auto;
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+        }
+    }
+}
+@media (max-width: 575px) {
+    .title {
+       font-size: 23px; 
+    }
+    .benefits {
+        &__wreapper {
+            margin-top: 65px;
+            display: flex;
+            flex-direction: column;
+            align-items:center;
+        }
+    }
+        
+}
